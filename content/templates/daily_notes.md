@@ -10,6 +10,3 @@ draft: false
 - [ ] 
 
 ## Notes
-
-## Journal
-- [[Journal|Journal de Bord]]

@@ -10,10 +10,10 @@ export default (() => {
       const { text: timeTaken, words: _words } = readingTime(text)
 
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!))
+        segments.push("📆"+formatDate(getDate(cfg, fileData)!))
       }
 
-      segments.push(timeTaken)
+      segments.push("⏳"+timeTaken)
       return <p class={`content-meta ${displayClass ?? ""}`}>{segments.join(", ")}</p>
     } else {
       return null
