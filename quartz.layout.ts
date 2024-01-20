@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      Home: "http://localhost:8080",
+      Home: "https://benoitlx.github.io/Documentation-Stage-G1/",
       GitHub: "https://github.com/benoitlx"
     },
   }),
