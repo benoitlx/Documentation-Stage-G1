@@ -1,7 +1,7 @@
 ---
 aliases:
   - home
-draft: true
+draft: false 
 title: "Microscopie confocale pour l'observation de centre NV dans le diamant"
 date: 2024-01-20
 ---
@@ -15,6 +15,7 @@ Ce projet a été initié par l'IEMN un laboratoire de microélectronique et de 
 ## Mon rôle dans ce projet
 
 C'est dans le cadre du stage de première année de l'école d'ingénieur Centrale Lille, que je suis amené à travailler sur ce projet. 
+
 ![[Pasted image 20240120173409.png|300]]
 
 Je vais travailler sur différents éléments dont les principaux sont:
@@ -28,12 +29,13 @@ Je vais travailler sur différents éléments dont les principaux sont:
 Cette documentation est principalement divisé en deux grandes catégorie:
 - [[Physique]] où sont vulgarisé les grands phénomènes physique intervenants dans le projet
 - [[Notes Technique]] regroupant les différentes notes techniques permettant aux chercheurs d'utiliser mon travail
-À noté que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement en bas de n'importe quelle page.
+
+À noté que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement à droite de n'importe quelle page.
 
 Enfin, le travaille mené pendant mon stage peut être visualisé dans la page [[Journal|Journal de Bord]].
 
 ## À propos de cette documentation
 
-La documentation est généré à partir de l'outil [quartz🪴][https://quartz.jzhao.xyz/hosting], qui permet à partir d'un ensemble de notes au format Markdown de fournir un site web statique.
-Ce site statique est hébergé grâce aux [Github Pages][https://pages.github.com/].
-Les notes sont édités avec le logiciel [Obsidian][https://obsidian.md/].
+La documentation est généré à partir de l'outil [quartz🪴](https://quartz.jzhao.xyz/hosting), qui permet à partir d'un ensemble de notes au format Markdown de fournir un site web statique.
+Ce site statique est hébergé grâce aux [Github Pages](https://pages.github.com/).
+Les notes sont édités avec le logiciel [Obsidian](https://obsidian.md/).
