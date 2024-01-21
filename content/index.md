@@ -39,6 +39,6 @@ Enfin, le travaille mené pendant mon stage peut être visualisé à l'aide du t
 
 ## À propos de cette documentation
 
-La documentation est généré à partir de l'outil [quartz🪴](https://quartz.jzhao.xyz/hosting), qui permet à partir d'un ensemble de notes au format Markdown de fournir un site web statique.
+La documentation est généré à partir de l'outil [Quartz🪴](https://quartz.jzhao.xyz/hosting), qui permet à partir d'un ensemble de notes au format Markdown de fournir un site web statique.
 Ce site statique est hébergé grâce aux [Github Pages](https://pages.github.com/).
 Les notes sont édités avec le logiciel [Obsidian](https://obsidian.md/). 
