@@ -20,10 +20,11 @@ C'est dans le cadre du stage de première année de l'école d'ingénieur Centra
 
 Je vais travailler sur différents éléments dont les principaux sont:
 - prise en main d'un système de déplacement tridimensionnel à l'échelle nanométrique
-- intégration de ce système dans un banc d'optique (avec le [[Microscopie Confocale|microscope]])
-- Tests de l'imagerie sur différents échantillons
-- Mise au point d'un système de comptage haute fréquence (pour utiliser les donné fournis par le photodétecteur)
+- Analyse d'un code de microcontrôleur permettant de générer des impulsions pour le contrôle cohérent des spins d'un électron dans un [[Centre NV dans le diamant|centre NV]]  
+- Mise au point d'un système de comptage haute fréquence (pour compter les impulsions fournies par le photodétecteur)
 - consignation du travail sous la forme de la présente documentation
+
+Pour plus de détails sur les objectifs de ce stage voir la [[Roadmap]].
 
 Pour toute question ou remarques concernant mon travail, merci de me contacter à l'adresse suivante : benoit.leroux@centrale.centralelille.fr
 
@@ -37,6 +38,8 @@ Cette documentation est principalement divisé en deux grandes catégorie:
 > À noté que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement à droite de n'importe quelle page.
 
 Enfin, le travaille mené pendant mon stage peut être visualisé à l'aide du tag #daily qui recense les notes journalières.
+
+Pour plus de détail sur le versioning de la documentation et du code, voire la note [[Github]] .
 
 ## À propos de cette documentation
 
