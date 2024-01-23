@@ -34,6 +34,8 @@ avec $\hat{H}_0$ l'hamiltonien interne au système, $\hat{H}_V$ l'hamiltonien as
 #### Hamiltonien interne
 $$\hat{H}_0 = E_0 \ket{0}\bra{0} + E_1 \ket{1}\bra{1}$$
 
+où $\ket{\cdot}\bra{\cdot}$ désigne le [produit externe](https://en.wikipedia.org/wiki/Outer_product) entre deux vecteurs.
+
 #### Hamiltonien du signal
 $$\hat{H}_V(t) = \hat{H}_{V_{\parallel}}(t) + \hat{H}_{V_{\perp}}(t)$$
 
@@ -53,7 +55,7 @@ Le Hamiltonien de contrôle est obtenue par manipulation de [portes quantiques](
 
 1. Initialisation (exemple état $\ket{0}$)
 2. Transformation $\ket{0}$ => $\ket{\psi_0}$ (obtenue par exemple avec une rotation $\pi /2$ voire [portes quantiques](https://en.wikipedia.org/wiki/Quantum_logic_gate))
-3. Laisser évolué pendant un temps $t$ sous l'influence de la grandeur $V$ $\ket{\psi_0}$ => $\ket{\psi(t)}$
+3. Laisser évolué pendant un temps $t$ sous l'influence de la grandeur $V$ $\ket{\psi_0}$ => $\ket{\psi(t)}$ ($\phi = 2 \pi \gamma | B_0 - B_1 | t$)
 4. Transformation $\ket{\psi(t)}$ => $\ket{\alpha}$ (obtenue avec une autre rotation dans la [[Qubit#Sphère de Bloch|sphère de Bloch]] en faisant l'autoadjoint de la première transformation)
 5. Projection (permet d'obtenir les probabilités d'être dans l'état $\ket{0}$ et $\ket{1}$)
 

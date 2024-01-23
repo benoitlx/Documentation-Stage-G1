@@ -21,7 +21,8 @@ C'est dans le cadre du stage de première année de l'école d'ingénieur Centra
 Je vais travailler sur différents éléments dont les principaux sont:
 - prise en main d'un système de déplacement tridimensionnel à l'échelle nanométrique
 - intégration de ce système dans un banc d'optique (avec le [[Microscopie Confocale|microscope]])
-- tests de l'imagerie sur différents échantillons
+- Tests de l'imagerie sur différents échantillons
+- Mise au point d'un système de comptage haute fréquence (pour utiliser les donné fournis par le photodétecteur)
 - consignation du travail sous la forme de la présente documentation
 
 Pour toute question ou remarques concernant mon travail, merci de me contacter à l'adresse suivante : benoit.leroux@centrale.centralelille.fr
