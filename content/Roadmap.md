@@ -5,6 +5,8 @@ tags: daily
 draft: false
 ---
 
+## Main goals
+
 - [ ] #task ⏫ Contrôle machine Nanomax
 	- [ ] Module d'interfaçage python
 	- [ ] Tests du module
@@ -14,3 +16,7 @@ draft: false
 - [ ] #task 🔼 PCB des modules de contrôle cohérent
 - [ ] #task ⏬ Manipulation contrôle cohérent
 - [ ] #task ⏬ Test du microscope confocale
+
+## Intermediate tasks
+
+- [ ] #task improve this [repo](https://github.com/Schlabonski/cubini) and create a `pypi` package for it
