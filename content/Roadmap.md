@@ -10,7 +10,7 @@ draft: false
 - [ ] #task ⏫ Contrôle machine Nanomax
 	- [ ] Module d'interfaçage python
 	- [ ] Tests du module
-	- [ ] (Module openCV pour tracker le déplacement)
+- [ ] #task ⏬ (Module openCV pour tracker le déplacement)
 - [ ] #task 🔽 Compteur de photon 
 - [ ] #task ⏫ Compréhension du code de Contrôle cohérent
 - [ ] #task 🔼 PCB des modules de contrôle cohérent
