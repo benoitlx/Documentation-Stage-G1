@@ -13,7 +13,7 @@ draft: false
 
 - La configuration énergétique du système quantique doit pouvoir être modélisé par un ensemble de système à deux niveaux d'énergies ($\ket{0}$ et $\ket{1}$ séparé par une énergie $E=\hbar \omega_0$ ([[Qubit]]))
 - On doit pouvoir initialiser et lire l'état du système quantique
-- #todo à comprendre
+- #todo à comprendre, à propos de cohérence spatiale : [vidéo de l'institut d'optique](https://www.youtube.com/watch?v=qr2zCB-0VvE)
 - Le système doit interagir avec une grandeur physique $V(t)$ (un champ électrique, magnétique ...). On peut alors introduire le couplage $\gamma = \dfrac{\partial^q E}{\partial^q V}$, qui caractérise les variations d'énergies du système par rapport aux variations de la grandeur $V$.
 
 ## Implémentation de Capteurs quantique
