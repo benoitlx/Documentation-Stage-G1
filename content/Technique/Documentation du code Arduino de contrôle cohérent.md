@@ -15,7 +15,19 @@ draft: false
 
 #### Compilation
 
+La compilation permet à partir d'un code source de produire un fichier exécutable par une machine. Dans le cas d'un microcontrôleur, il s'agit de produire un code hexadécimal qui sera transversé dans la mémoire flash du microcontrôleur.
+
+La compilation se fait en 4 grandes étapes:
+- Le préprocesseur
+- Le compilateur
+- L'assembleur
+- Le Linker
+
+Le premier point est expliqué dans la partie suivante, le compilateur permet de traduire un fichier c en un code assembleur (c'est l'étape la plus compliqué), l'assembleur permet de le transformer en code machine (dans notre cas en hexadécimal), le linker permet de faire le lien entre différents fichiers compilé séparément, et d'include les fichier sources.
+
 #### Macros
+
+Une macro permet de manipuler le fichier source pendant l'étape *préprocesseur* de la chaîne de compilation. Tout les lignes d'un code en C commençant par un `#` vont être utilisé à ce moment là. Dans le cas d'un `#define foo bar` (c'est la seule qui nous intéresse dans notre cas), toutes les occurrences de `foo` du code source vont être remplacé par `bar` après le passage dans le *préprocesseur*
 
 ##### Macro NOP
 
