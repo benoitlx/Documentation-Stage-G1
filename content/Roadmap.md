@@ -8,7 +8,7 @@ draft: false
 ## Main goals
 
 - [ ] #task ⏫ Contrôle machine Nanomax
-	- [ ] Module d'interfaçage python
+	- [x] Module d'interfaçage python
 	- [ ] Tests du module
 - [ ] #task ⏬ (Module openCV pour tracker le déplacement)
 - [ ] #task 🔽 Compteur de photon 
