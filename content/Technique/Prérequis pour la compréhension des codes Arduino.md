@@ -87,7 +87,7 @@ LA macro `cbi` doit être utilisé comme une fonction : elle prend deux argument
 
 Cette macro est la même que `cbi`, mais tourne le bit à 1.
 
-## Fonctions communes aux deux codes
+### Fonctions communes aux deux codes
 
 - voir [[Fonctions Communes pour les deux codes Arduino]]
 

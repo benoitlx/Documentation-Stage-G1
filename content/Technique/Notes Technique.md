@@ -22,4 +22,9 @@ draft: false
 - [[KCH601]]
 - [[KPZ101]]
 - [[KSG101]]
+- [[Scan]]
 
+#### Autres outils découvert pendant le stage (peuvent être utiles dans d'autres expériences à l'IEMN)
+
+- [ARTIQ](https://m-labs.hk/artiq/manual/introduction.html)
+- [pylablib](https://pylablib.readthedocs.io/en/latest/)

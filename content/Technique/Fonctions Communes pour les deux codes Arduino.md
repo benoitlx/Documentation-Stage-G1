@@ -59,7 +59,7 @@ Liste des commandes:
 > ```
 > par
 > ```c
-> Serial.print(F"Un message")
+> Serial.print(F("Un message"))
 > ```
 > Cela a pour effet d'enregistrer les string dans la mémoire flash plutôt que dans la mémoire RAM, c'est pratique sur des microcontrôleur comme arduino avec une mémoire RAM limité.
 
