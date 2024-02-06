@@ -8,7 +8,20 @@ draft: false
 
 ### Architecture de l'Atemga328p
 
+Le datasheet est disponible [ici](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
+
 ![[Pasted image 20240202152148.png]]
+
+#### Registres
+
+Il peut être utile pour la suite de comprendre la notion de registre.
+
+Un registre est un composant intégré dans le microcontrôleur et dans les processeurs, permettant de stocker un nombre donné de bits (le même nombre que la taille du bus, ici 8). Deux opérations peuvent être effectué par le processeur sur chacun des registres:
+- store: pour écrire les donnés du bus dans le registre
+- load: pour récupérer les donnés du registre et les rendre disponible sur le bus
+A noter que les registres et le processeur sont tous cadencé par la même horloge, pour assurer une cohérence (pour pas que deux registres écrivent en même temps sur le bus).
+
+Les registres sont utilisés comme moyen de stockage temporaire pour faire des calculs, comme un moyen de communiquer avec des modules externes (voir paragraphe suivant), comme un moyen de se repérer dans l'exécution d'un programme (program counter).
 
 ### Manipulation de Port
 
@@ -56,6 +69,7 @@ Une macro permet de manipuler le fichier source pendant l'étape *préprocesseur
 ##### Macro NOP
 
 > ESR_MWRF ligne 9
+> RABI_MWRF ligne 9
 
 La macro `NOP` permet de ne rien faire pendant un cycle d'horloge du processeur soit pendant 62.5 nanosecondes.
 Elle est implémentée de la manière suivante:
@@ -68,6 +82,7 @@ Elle est implémentée de la manière suivante:
 ##### Macro cbi
 
 > ESR_MWRF ligne 21
+> RABI_MWRF ligne 21
 
 ```c
 #define cbi(sfr, i) (_SFR_BYTE(sfr) &= ~_BV(i)) 
@@ -80,12 +95,24 @@ LA macro `cbi` doit être utilisé comme une fonction : elle prend deux argument
 ##### Macro sbi
 
 > ESR_MWRF ligne 22
+> RABI_MWRF ligne 22
 
 ```c
 #define sbi(sfr, bit) (_SFR_BYTE(sfr) |= _BV(bit))  
 ```
 
 Cette macro est la même que `cbi`, mais tourne le bit à 1.
+
+##### Macro OFFALL
+
+> ESR_MWRF ligne 84
+> RABI_MWRF ligne 86
+
+```c
+#define OFFALL  PORTD &= B11110011; PORTD |= B01000000;
+```
+
+A pour effet d'éteindre le laser, la source de RF et de micro-ondes.
 
 ### Fonctions communes aux deux codes
 

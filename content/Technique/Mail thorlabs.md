@@ -18,3 +18,24 @@ Je ne m'attends pas à ce que vous répondiez à toutes mes interrogations, mais
 Merci d'avance pour votre aide,
 
 Benoit Leroux
+
+## Réponse à Thorlabs
+
+Bonsoir,
+
+Tout d'abord merci de votre réponse rapide.
+
+J'ai vérifié les points que vous avez évoqué:
+- la commande `MGMSG_PZ_GET_TSG_IOSETTINGS` me renvoi bien les paramètres attendus:
+	- Diplay Mode = 1
+	- HubAnalogueOutput = 2 (voir schéma du montage)
+- de même pour la fonction `MGMSG_PZ_GET_MAXTRAVEL` qui me renvoi 200
+Enfin, les valeurs `Reading` données par le `KSG101` sont explicitées dans les photos, de même que pour les points concernant la deuxième question. Vous trouverez également un schéma du montage effectué (j'ai refais des mesures cet après-midi et elles correspondent avec celles de la dernière fois).
+
+```mermaid
+flowchart LR
+	PC -- USB --> KCH601 --> KPZ101
+	KPZ101 --> Nanomax 
+	KCH601 --> KSG101
+	Nanomax --> KSG101 -- Channel2 --> KPZ101
+```
