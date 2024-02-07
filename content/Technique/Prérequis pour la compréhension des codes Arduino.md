@@ -46,7 +46,19 @@ Si les pins mis à 1 avec `PORT[B/C/D]` était mis à 0 avec `DDR[B/C/D]`, cela 
 
 ### Interruption
 
-#todo
+Les interruption permettent de modifier l'état du program counter (l'endroit où est lut l'instruction courante), pour exécuter un code arbitraire dans la RAM et retourner au précédent endroit.
+
+Lorsque une interruption survient, un délai est ajouté entre les différentes instructions exécutés, c'est problématique dans notre cas car on veut générer des impulsions d'un cycle d'horloge.
+
+Pour remédier à ce problème, il faut encapsuler chaque partie de code critique dans le bloc suivant:
+```c
+cli(); // désactive les interruptions
+// code critique
+sei(); // réactive les interruptions
+```
+
+> [!attention]+
+> Les fonctions manipulant le port série configurent des interruptions, sans que l'on puisse le voir dans le code source.
 
 ### Notions de C
 
