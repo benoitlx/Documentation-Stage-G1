@@ -35,7 +35,7 @@ Cette documentation est principalement divisé en deux grandes catégorie:
 - [[Notes Technique]] regroupant les différentes notes techniques permettant aux chercheurs d'utiliser mon travail
 
 > [!info]-
-> À noté que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement à droite de n'importe quelle page.
+> À noter que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement à droite de n'importe quelle page.
 
 Enfin, le travaille mené pendant mon stage peut être visualisé à l'aide du tag #daily qui recense les notes journalières.
 

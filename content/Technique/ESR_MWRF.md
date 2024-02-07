@@ -8,7 +8,11 @@ draft: false
 ---
 
 
+> Les impulsions TTL sont enregistrés dans la racine du répertoire `StageG1`
 
 ## Fonction LaserAllign
 
-Pourquoi ne pas utiliser une pin avec le support de PWM, pour pouvoir régler la puissance du laser ?
+> ESR_MWRF ligne 349
+> ESR_MWRF ligne 648 
+
+Cette fonction permet d'allumer la diode laser pendant quelques secondes à faible puissance afin de pouvoir aligner le laser, l'échantillon et le récepteur.

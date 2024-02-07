@@ -35,7 +35,13 @@ void ReadA(){analogRead(A0); for (int i=0; i<256; i++){PDA+=0L+analogRead(A0);}}
 > ESR_MWRF ligne 192
 > RABI_MWRF ligne 195
 
+A noter qu'avant chaque mesure, il est nécessaire de remettre à 0 `PDA` ou `PDB`.
+
 ### ADF4351
+
+L'ADF4351 permet de générer un signal d'une fréquence allant de 35MHz à 4.4GHz.
+
+Il s'utilise avec le bus de donné SPI.
 
 #todo
 
@@ -73,6 +79,10 @@ Liste des commandes:
 - `1`...`4` Règle la puissance RF en `-4`.`-1`.`+2`.`+5` dbm
 - `x` Met le switch des micro-ondes sur ON
 - `z` Met le switch des micro-ondes sur OFF
+- `o` désactive la sortie de l'`ADF4351
+- `p` active la sortie de l'`ADF4351
+- `k` active la sortie du laser pour faire un test d'alignement
+- `n` lance une nouvelle mesure (prend une quinzaine de minutes)
 
 
 > [!tip]-
