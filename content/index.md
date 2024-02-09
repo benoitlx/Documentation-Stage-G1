@@ -26,8 +26,6 @@ Je vais travailler sur différents éléments dont les principaux sont:
 
 Pour plus de détails sur les objectifs de ce stage voir la [[Roadmap]].
 
-Pour toute question ou remarques concernant mon travail, merci de me contacter à l'adresse suivante : benoit.leroux@centrale.centralelille.fr
-
 ## 📎 Organisation de la documentation
 
 Cette documentation est principalement divisé en deux grandes catégorie:
@@ -39,7 +37,10 @@ Cette documentation est principalement divisé en deux grandes catégorie:
 
 Enfin, le travaille mené pendant mon stage peut être visualisé à l'aide du tag #daily qui recense les notes journalières.
 
-Pour plus de détail sur le versioning de la documentation et du code, voire la note [[Github]] .
+Pour plus de détail sur le versioning de la documentation et du code, voire la note [[Github]].
+
+> [!question]+
+> Si vous avez des questions à propos de cette documentation, ou besoin de plus d'information sur mon travail, merci de créer une [issue](https://github.com/benoitlx/Documentation-Stage-G1/issues) sur le github de cette documentation. Vous pouvez aussi me contacter via l'adresse benoit.leroux@centrale.centralelille.fr.
 
 ## À propos de cette documentation
 

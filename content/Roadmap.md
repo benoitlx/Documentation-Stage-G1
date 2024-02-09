@@ -13,6 +13,8 @@ draft: false
 - [ ] #task ⏬ (Module openCV pour tracker le déplacement)
 - [ ] #task 🔽 Compteur de photon 
 - [ ] #task ⏫ Compréhension du code de Contrôle cohérent
+	- [ ] #task expérimentation avec la PLL
+	- [ ] #task expérimentation avec l'AD9834
 - [ ] #task 🔼 PCB des modules de contrôle cohérent
 - [ ] #task ⏬ Manipulation contrôle cohérent
 - [ ] #task ⏬ Test du microscope confocale
