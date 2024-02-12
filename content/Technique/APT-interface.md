@@ -15,7 +15,7 @@ Documentation du module python
 - [[KSG101]]
 - [[Scan]]
 - [[Device]]
-- [[Ajouter une fonctionnalitée à un appareil préexistant]]
+- [[Ajouter une fonctionnalité à un appareil préexistant]]
 - [[Ajouter un appareil APT]]
 - [[Ajouter un mouvement quelconque]]
 
