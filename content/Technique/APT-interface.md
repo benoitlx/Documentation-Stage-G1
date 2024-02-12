@@ -14,8 +14,11 @@ Documentation du module python
 - [[KPZ101]]
 - [[KSG101]]
 - [[Scan]]
+- [[Device]]
+- [[Ajouter une fonctionnalitée à un appareil préexistant]]
 - [[Ajouter un appareil APT]]
 - [[Ajouter un mouvement quelconque]]
+
 
 ## Démonstration
 
@@ -24,6 +27,9 @@ Documentation du module python
 - exemples de déplacements (photos)
 - simulation
 - vidéo de déplacement sous le keyence
+
+## Place de ce module dans la microscopie confocale
+#todo
 
 ## Liens supplémentaires
 - [[APT]]
