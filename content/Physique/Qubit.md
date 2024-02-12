@@ -8,7 +8,7 @@ draft: false
 Un qubit est une fonction d'onde sous la forme d'une somme de deux états pondérés.
 
 $$\ket{\psi} = \alpha \ket{0} + \beta \ket{1}$$
-avec $\alpha^2 + \beta^2 = 1$ et $\ket{0}=\begin{pmatrix}1\\0\end{pmatrix}$ et $\ket{1} = \begin{pmatrix}0\\1\end{pmatrix}$
+avec $\alpha^2 + \beta^2 = 1$ , $\alpha,\beta \in \mathbb{C}$ et $\ket{0}=\begin{pmatrix}1\\0\end{pmatrix}$ et $\ket{1} = \begin{pmatrix}0\\1\end{pmatrix}$
 
 ## Sphère de Bloch
 

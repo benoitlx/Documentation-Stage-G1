@@ -5,7 +5,7 @@ tags: doc
 draft: false 
 ---
 
-## Documentation Arduino de contrôle cohérent de spin
+## Documentation Arduino du contrôle cohérent de spin
 
 - [[Prérequis pour la compréhension des codes Arduino]]
 - [[Fonctions Communes pour les deux codes Arduino]]
@@ -14,17 +14,11 @@ draft: false
 
 ## Documentation de la librairie APT-interface
 
-#todo MOC for APT-interface
+- [[APT-interface]]
 
-- [[APT]]
-- [[kinesis]]
-- [[Thorlabs MAX311D]]
-- [[KCH601]]
-- [[KPZ101]]
-- [[KSG101]]
-- [[Scan]]
 
-#### Autres outils découvert pendant le stage (peuvent être utiles dans d'autres expériences à l'IEMN)
+#### Autres outils découvert pendant le stage (qui peuvent être utiles dans d'autres expériences à l'IEMN)
 
-- [ARTIQ](https://m-labs.hk/artiq/manual/introduction.html)
-- [pylablib](https://pylablib.readthedocs.io/en/latest/)
+- [ARTIQ](https://m-labs.hk/artiq/manual/introduction.html) pour simplifier la programmation de pulse sequencer et plus généralement de toute expérience de physique quantique ayant des contraintes de temps qui requiert l'utilisation d'un FPGA
+- [pylablib](https://pylablib.readthedocs.io/en/latest/) Un module python regroupant plein d'appareil de labo. La caméra hammamatsu est supportée, mais le dépôt github est maintenue par une seule personne (comme mon repo à l'heure actuelle)
+- [cubini](https://github.com/Schlabonski/cubini) un dépot github qui implémente la communication avec un [[KPZ101]] 
