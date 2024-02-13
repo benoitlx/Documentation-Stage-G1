@@ -45,6 +45,20 @@ A noter qu'avant chaque mesure, il est nécessaire de remettre à 0 `PDA` ou `PD
 
 #todo
 
+### Laser
+
+#### Fonction LaserAllign
+
+> ESR_MWRF ligne 349
+> ESR_MWRF ligne 648 
+
+Cette fonction permet d'allumer la diode laser pendant quelques secondes à faible puissance afin de pouvoir aligner le laser, l'échantillon et le récepteur.
+
+#### Génération d'impulsion
+
+#todo
+
+
 ## Liaison Série
 
 ### Dans le setup
@@ -73,7 +87,7 @@ Liste des commandes:
 - `+` Augmente la fréquence RF de `RFstep`
 - `-` Diminue la fréquence RF de `RFstep`
 - `1`...`4` Règle la puissance RF en `-4`.`-1`.`+2`.`+5` dbm
-- `x` Met le switch des micro-ondes sur ON
+- `x` Met le switch des micro-ondes sur ON (je ne comprend pas à quoi sert le switch sachant qu'il y a la fonction `PowerEnable()` disponible avec l'[[ADF4351]])
 - `z` Met le switch des micro-ondes sur OFF
 - `o` désactive la sortie de l'`ADF4351
 - `p` active la sortie de l'`ADF4351

@@ -128,5 +128,5 @@ A pour effet d'éteindre le laser, la source de RF et de micro-ondes.
 
 ### Fonctions communes aux deux codes
 
-- voir [[Fonctions Communes pour les deux codes Arduino]]
+- voir [[Fonctions Communes aux deux codes Arduino]]
 
