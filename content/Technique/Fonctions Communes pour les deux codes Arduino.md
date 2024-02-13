@@ -39,11 +39,7 @@ A noter qu'avant chaque mesure, il est nécessaire de remettre à 0 `PDA` ou `PD
 
 ### ADF4351
 
-L'ADF4351 permet de générer un signal d'une fréquence allant de 35MHz à 4.4GHz.
-
-Il s'utilise avec le bus de donné SPI.
-
-#todo
+[[ADF4351]]
 
 ### AD9834
 
