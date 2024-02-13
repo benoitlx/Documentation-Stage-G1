@@ -1,7 +1,7 @@
 ---
 date: 2024-02-05
 aliases: 
-tags: doc
+tags: doc, arduino
 draft: false
 ---
 

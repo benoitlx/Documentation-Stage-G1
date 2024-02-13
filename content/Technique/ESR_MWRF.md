@@ -4,6 +4,7 @@ aliases:
 tags: 
 - code review
 - doc
+- arduino
 draft: false
 ---
 
