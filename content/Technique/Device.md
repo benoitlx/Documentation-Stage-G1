@@ -4,7 +4,6 @@ aliases:
 tags: doc, apt-interface
 draft: false
 ---
-#todo
 
 ## Utilisation du module `Device`
 

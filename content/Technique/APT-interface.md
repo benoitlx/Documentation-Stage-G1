@@ -21,9 +21,27 @@ Documentation du module python
 
 ```mermaid
 classDiagram
-Class Device <|-- Class KPZ101
-Class Device <|-- Class KSG101
-Class KPZ101 <|-- Class Scan
+Device "1" <|-- "1" KPZ101
+Device "1" <|-- "1" KSG101
+KPZ101 "1..*" <|-- "*" Scan
+
+Device : read_data(...)
+Device : write(...)
+Device : write_with_data(...)
+
+KPZ101 : set_output_voltage(...)
+KPZ101 : set_position(...)
+KPZ101 : enable_output()
+KPZ101 : disable_output()
+KPZ101 : get_info()
+
+KSG101 : get_reading()
+KSG101 : get_max_travel()
+KSG101 : zeroing()
+KSG101 : identify()
+
+Scan : scan(...)
+Scan : visualize()
 ```
 
 ## Démonstration avec un [[Thorlabs MAX311D|nanomax]]
