@@ -26,7 +26,7 @@ Documentation du module python
 - photo du montage avec le nanomax
 - exemples de déplacements (photos)
 - simulation
-- vidéo de déplacement sous le keyence
+- vidéo du déplacement sous le keyence
 
 ## Place de ce module dans la microscopie confocale
 #todo
