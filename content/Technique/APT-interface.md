@@ -27,6 +27,8 @@ Documentation du module python
 
 #### Déplacements de base
 
+Les photos illustrent aussi le problème que j'ai eu pour faire marcher le KPZ en boucle fermé (voir [[Mail thorlabs]])
+
 ![[CelluleFEMTO_WMS5000010.jpg]]
 ![[CelluleFEMTO_WMS5000009.jpg]]
 ![[CelluleFEMTO_WMS5000008.jpg]]
