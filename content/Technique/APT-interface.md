@@ -19,6 +19,12 @@ Documentation du module python
 - [[Ajouter un appareil APT]]
 - [[Ajouter un mouvement quelconque]]
 
+```mermaid
+classDiagram
+Class Device <|-- Class KPZ101
+Class Device <|-- Class KSG101
+Class KPZ101 <|-- Class Scan
+```
 
 ## Démonstration avec un [[Thorlabs MAX311D|nanomax]]
 
