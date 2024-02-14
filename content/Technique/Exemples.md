@@ -5,7 +5,7 @@ tags: doc, apt-interface
 draft: false
 ---
 
-Tous les exemples suivants sont disponibles sur dans le dossier `confocal` du repo [qsense](https://github.com/yannickdusch/qsense)
+Tous les exemples suivants sont disponibles dans le dossier `confocal` du repo [qsense](https://github.com/yannickdusch/qsense)
 
 ## Identifier les Modules avec leur numéro de série
 
@@ -34,7 +34,7 @@ with Device("59000407", 115200) as dev:
 
 Le programme suivant est un exemple simple d'utilisation de python pour contrôler un KPZ101. Le programme permet soit d'envoyer une tension sinusoïdale au KPZ soit d'envoyer directement une consigne de tension.
 
-```c
+```python
 from apt_interface.KPZ101 import KPZ101, KPZ101Config
 from time import sleep
 from math import sin, pi
