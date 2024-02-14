@@ -20,15 +20,23 @@ Documentation du module python
 - [[Ajouter un mouvement quelconque]]
 
 
-## Démonstration
+## Démonstration avec un [[Thorlabs MAX311D|nanomax]]
 
 #todo 
-- photo du montage avec le nanomax
-- exemples de déplacements (photos)
-- simulation
-- vidéo du déplacement sous le keyence
+#### Montage
 
-## Place de ce module dans la microscopie confocale
+#### Déplacements de base
+
+![[CelluleFEMTO_WMS5000010.jpg]]
+![[CelluleFEMTO_WMS5000009.jpg]]
+![[CelluleFEMTO_WMS5000008.jpg]]
+#### Simulation
+
+![[Figure_1.png]]
+
+#### Balayage
+
+## Place de ce module dans [[Microscopie Confocale]] 
 #todo
 
 ## Liens supplémentaires
