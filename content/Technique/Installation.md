@@ -18,7 +18,7 @@ apt-get install libusb-1.0
 ### udev rules configuration
 
 Udev rules need to be created to communicate with devices without using administrator privilege.
-A special `11-ftdi.rules` is available in the `rules` directory (it might be necessary to adapt it if you want to use different devices than mine), you can copy it to `/etc/udev/rules.d` and run the following command as root :
+A special rule `11-ftdi.rules` is available in the `rules` directory (it might be necessary to adapt it if you want to use different devices than mine), you can copy it to `/etc/udev/rules.d` and run the following command as root :
 
 ```bash
 udevadm control --reload-rules
