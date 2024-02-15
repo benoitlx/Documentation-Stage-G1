@@ -19,9 +19,8 @@ C'est dans le cadre du stage de première année de l'école d'ingénieur Centra
 ![[Pasted image 20240120173409.png|300]]
 
 Je vais travailler sur différents éléments dont les principaux sont:
-- prise en main d'un système de déplacement tridimensionnel à l'échelle nanométrique
+- prise en main d'un système de déplacement tridimensionnel à l'échelle nanométrique et réalisation d'un module python pour l'interfacer avec un PC
 - Analyse d'un code de microcontrôleur permettant de générer des impulsions pour le contrôle cohérent des spins d'un électron dans un [[Centre NV dans le diamant|centre NV]]  
-- Mise au point d'un système de comptage haute fréquence (pour compter les impulsions fournies par le photodétecteur)
 - consignation du travail sous la forme de la présente documentation
 
 Pour plus de détails sur les objectifs de ce stage voir la [[Roadmap]].
