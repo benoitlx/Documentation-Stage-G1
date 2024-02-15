@@ -7,6 +7,8 @@ tags:
 draft: false
 ---
 
+L'ensemble de cette note a été rédigé à partir de la publication de [[References#Degen|Degen]] et de différentes pages wikipédia.
+
 ## Définition
 
 #### Capteur Quantique
@@ -67,21 +69,5 @@ Ce protocole est un protocole parmi plusieurs utilisés.
 
 #todo
 
-## Source
 
-```bibtex
-@article{Degen2017,
-  title = {Quantum sensing},
-  volume = {89},
-  ISSN = {1539-0756},
-  url = {http://dx.doi.org/10.1103/RevModPhys.89.035002},
-  DOI = {10.1103/revmodphys.89.035002},
-  number = {3},
-  journal = {Reviews of Modern Physics},
-  publisher = {American Physical Society (APS)},
-  author = {Degen,  C. L. and Reinhard,  F. and Cappellaro,  P.},
-  year = {2017},
-  month = jul 
-}
-```
 
