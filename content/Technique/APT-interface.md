@@ -77,8 +77,6 @@ Avec la fonction `visualize()`
 
 Ce module python créer une couche d'abstraction par dessus les commandes bas niveaux envoyées aux gauges et aux contrôleurs. Le chercheurs pourront ainsi contrôler le déplacement d'un plateau à l'échelle nanométrique et faire une mesure entre chaque points à l'aide d'une seule commande : `scan(...)`. Le fait de pouvoir faire ceci en python va permettre aux chercheurs de créer des expériences complexes qui nécessite une synchronisation entre les différents équipements de laboratoire.
 
-test
-
 ## Liens supplémentaires
 - [[APT]]
 - [[kinesis]]
