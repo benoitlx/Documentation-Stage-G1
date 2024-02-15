@@ -42,3 +42,39 @@ draft: false
     eprint = {https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0089161/16470477/065321\_1\_online.pdf},
 }
 ```
+
+## Levine
+
+```bibtex
+@article{LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973,
+url = {https://doi.org/10.1515/nanoph-2019-0209},
+title = {Principles and techniques of the quantum diamond microscope},
+title = {},
+author = {Edlyn V. Levine and Matthew J. Turner and Pauli Kehayias and Connor A. Hart and Nicholas Langellier and Raisa Trubko and David R. Glenn and Roger R. Fu and Ronald L. Walsworth},
+pages = {1945--1973},
+volume = {8},
+number = {11},
+journal = {Nanophotonics},
+doi = {doi:10.1515/nanoph-2019-0209},
+year = {2019},
+lastchecked = {2024-02-15}
+}
+```
+
+## Misonou
+
+```bibtex
+@article{Misonou2020,
+  title = {Construction and operation of a tabletop system for nanoscale magnetometry with single nitrogen-vacancy centers in diamond},
+  volume = {10},
+  ISSN = {2158-3226},
+  url = {http://dx.doi.org/10.1063/1.5128716},
+  DOI = {10.1063/1.5128716},
+  number = {2},
+  journal = {AIP Advances},
+  publisher = {AIP Publishing},
+  author = {Misonou,  Daiki and Sasaki,  Kento and Ishizu,  Shuntaro and Monnai,  Yasuaki and Itoh,  Kohei M. and Abe,  Eisuke},
+  year = {2020},
+  month = feb 
+}
+```
