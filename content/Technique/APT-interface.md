@@ -11,13 +11,15 @@ Documentation du module python
 
 - [[Installation]]
 - [[Exemples]]
-- [[KPZ101]]
-- [[KSG101]]
-- [[Scan]]
-- [[Device]]
-- [[Ajouter une fonctionnalité à un appareil préexistant]]
-- [[Ajouter un appareil APT]]
-- [[Ajouter un mouvement quelconque]]
+- API
+	- [[KPZ101]]
+	- [[KSG101]]
+	- [[Scan]]
+	- [[Device]]
+- Extra
+	- [[Ajouter une fonctionnalité à un appareil préexistant]]
+	- [[Ajouter un appareil APT]]
+	- [[Ajouter un mouvement quelconque]]
 
 ```mermaid
 classDiagram
@@ -49,7 +51,7 @@ Scan : visualize()
 #### Montage
 
 On peut voire les 3 [[KPZ101]] (ils fonctionnent en boucle fermée) et le [[Thorlabs MAX311D|nanomax]] sous un microscope. Les [[KPZ101]] sont posés sur un [[KCH601|hub]] relié en usb au PC.
-![[Pasted image 20240215153642.png|600]]
+![[20240215_151659.jpg|600]]
 
 #### Déplacements de base
 

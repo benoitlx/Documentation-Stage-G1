@@ -47,14 +47,13 @@ Ce module va permettre de contrôler le nanomax pour le [[Microscopie Confocale|
 - [[APT-interface]]
 
 ## Documentation Arduino du contrôle cohérent de spin
-
 Ce montage avec arduino extrait de la publication de Mariani[^1] est une version miniaturisé du projet [Qsense](https://github.com/yannickdusch/qsense) permettant de mettre en évidence quelques résultats et d'illustrer des phénomènes physique à des fins d'éducation.
 
 - [[Documentation Code Arduino]]
 
 ### Autres outils découvert pendant le stage (qui peuvent être utiles dans d'autres expériences à l'IEMN)
 
-- [ARTIQ](https://m-labs.hk/artiq/manual/introduction.html) pour simplifier la programmation de pulse sequencer et plus généralement de toute expérience de physique quantique ayant des contraintes de temps qui requiert l'utilisation d'un FPGA
+- [ARTIQ](https://m-labs.hk/artiq/manual/introduction.html) pour simplifier la programmation de pulse sequencer et plus généralement de toute expérience de physique quantique ayant des contraintes de temps qui requiert l'utilisation d'un FPGA (le [lien](https://m-labs.hk/) de l'entreprise derrière le projet)
 - [pylablib](https://pylablib.readthedocs.io/en/latest/) Un module python regroupant plein d'appareil de labo. La caméra hammamatsu est supportée, mais le dépôt github est maintenue par une seule personne (comme mon repo à l'heure actuelle)
 - [cubini](https://github.com/Schlabonski/cubini) un dépot github qui implémente la communication avec un [[KPZ101]] 
 
