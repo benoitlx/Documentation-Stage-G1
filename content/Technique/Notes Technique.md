@@ -48,7 +48,7 @@ Ce module va permettre de contrôler le nanomax pour le [[Microscopie Confocale|
 
 ## Documentation Arduino du contrôle cohérent de spin
 
-Ce montage avec arduino extrait de la publication de Mariani[^1] est une version miniaturisé du projet [Qsense](https://github.com/yannickdusch/qsense) permettant de mettre en évidence quelques résultats et d'illustrer des phénomènes physique à des fins d'éducation.
+Ce montage avec arduino extrait de la publication de Mariani [^1] est une version miniaturisé du projet [Qsense](https://github.com/yannickdusch/qsense) permettant de mettre en évidence quelques résultats et d'illustrer des phénomènes physique à des fins d'éducation.
 
 - [[Documentation Code Arduino]]
 
@@ -59,7 +59,7 @@ Ce montage avec arduino extrait de la publication de Mariani[^1] est une version
 - [cubini](https://github.com/Schlabonski/cubini) un dépot github qui implémente la communication avec un [[KPZ101]] 
 
 
-[¹]: 
+[^1]:
 ```bibtex
 @article{10.1063/5.0089161,
     author = {Mariani, G. and Umemoto, A. and Nomura, S.},
