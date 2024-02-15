@@ -5,7 +5,7 @@ tags: doc, arduino
 draft: false
 ---
 
-Documentation du code arduino de contrôle cohérent.
+Documentation des codes arduino de contrôle cohérent.
 
 - [[Prérequis pour la compréhension des codes Arduino]]
 - [[Fonctions Communes aux deux codes Arduino]]
