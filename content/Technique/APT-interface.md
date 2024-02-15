@@ -58,12 +58,15 @@ Les photos illustrent aussi le problème que j'ai eu pour faire marcher le KPZ e
 ![[CelluleFEMTO_WMS5000008.jpg]]
 #### Simulation
 
+Avec la fonction `visualize()`
+
 ![[Figure_1.png]]
 
 #### Balayage
 
-## Place de ce module dans [[Microscopie Confocale]] 
-#todo
+## Place de ce module dans la [[Microscopie Confocale]] 
+
+Ce module python créer une couche d'abstraction par dessus les commandes bas niveaux envoyées aux gauges et aux contrôleurs. Le chercheurs pourront ainsi contrôler le déplacement d'un plateau à l'échelle nanométrique et faire une mesure entre chaque points à l'aide d'une seule commande : `scan(...)`. Le fait de pouvoir faire ceci en python va permettre aux chercheurs de créer des expériences complexes qui nécessite une synchronisation entre les différents équipements de laboratoire.
 
 ## Liens supplémentaires
 - [[APT]]

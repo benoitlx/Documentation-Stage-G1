@@ -5,6 +5,10 @@ tags: doc
 draft: false 
 ---
 
+## Architecture logiciel envisageable pour le projet Qsense
+
+#todo
+
 ## Documentation Arduino du contrôle cohérent de spin
 - [[Code Arduino]]
 
