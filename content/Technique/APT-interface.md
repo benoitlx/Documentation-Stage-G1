@@ -46,8 +46,10 @@ Scan : visualize()
 
 ## Démonstration avec un [[Thorlabs MAX311D|nanomax]]
 
-#todo 
 #### Montage
+
+On peut voire les 3 [[KPZ101]] (ils fonctionnent en boucle fermée) et le [[Thorlabs MAX311D|nanomax]] sous un microscope. Les [[KPZ101]] sont posés sur un [[KCH601|hub]] relié en usb au PC.
+![[Pasted image 20240215153642.png|600]]
 
 #### Déplacements de base
 
@@ -62,11 +64,20 @@ Avec la fonction `visualize()`
 
 ![[Figure_1.png]]
 
-#### Balayage
+#### Scan 
+
+###### Serpentin
+![[serpentin.gif]]
+
+###### Spirale
+![[spirale.gif]]
+
 
 ## Place de ce module dans la [[Microscopie Confocale]] 
 
 Ce module python créer une couche d'abstraction par dessus les commandes bas niveaux envoyées aux gauges et aux contrôleurs. Le chercheurs pourront ainsi contrôler le déplacement d'un plateau à l'échelle nanométrique et faire une mesure entre chaque points à l'aide d'une seule commande : `scan(...)`. Le fait de pouvoir faire ceci en python va permettre aux chercheurs de créer des expériences complexes qui nécessite une synchronisation entre les différents équipements de laboratoire.
+
+test
 
 ## Liens supplémentaires
 - [[APT]]
