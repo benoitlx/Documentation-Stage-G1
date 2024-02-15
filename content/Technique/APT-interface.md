@@ -27,6 +27,15 @@ Device "1" <|-- "1" KPZ101
 Device "1" <|-- "1" KSG101
 KPZ101 "1..*" <|-- "*" Scan
 
+namespace PC {
+	class Device
+	class KPZ101
+	class KSG101
+	class Scan
+}
+
+Device "1" --> "1" Serial Device : APTprotocol
+
 Device : read_data(...)
 Device : write(...)
 Device : write_with_data(...)
