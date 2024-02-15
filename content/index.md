@@ -35,6 +35,9 @@ Cette documentation est principalement divisé en deux grandes catégorie:
 > [!info]-
 > À noter que la documentation n'est pas organisé de manière arborescente, mais est plutôt organisé sous forme de graphe, avec des liens entre différentes notes. Ce graphe peut être visualisé directement à droite de n'importe quelle page.
 
+> [!tip]-
+> Une recherche parmi toutes les notes peut être effectué avec `CTRL+k`
+
 Enfin, le travaille mené pendant mon stage peut être visualisé à l'aide du tag #daily qui recense les notes journalières.
 
 Pour plus de détail sur le versioning de la documentation et du code, voire la note [[Github]].
