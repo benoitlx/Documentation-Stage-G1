@@ -20,6 +20,7 @@ Documentation du module python
 	- [[Ajouter une fonctionnalité à un appareil préexistant]]
 	- [[Ajouter un appareil APT]]
 	- [[Ajouter un mouvement quelconque]]
+	- [[json schema]]
 
 ```mermaid
 classDiagram
