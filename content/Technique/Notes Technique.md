@@ -5,7 +5,7 @@ tags: doc
 draft: false 
 ---
 
-## Architecture logiciel envisageable pour le projet Qsense
+## Architecture logiciel envisageable pour le projet 
 
 #### Structure de Fichiers
 
@@ -47,7 +47,7 @@ Ce module va permettre de contrôler le nanomax pour le [[Microscopie Confocale|
 - [[APT-interface]]
 
 ## Documentation Arduino du contrôle cohérent de spin
-Ce montage avec arduino extrait de la publication de Mariani[^1] est une version miniaturisé du projet [Qsense](https://github.com/yannickdusch/qsense) permettant de mettre en évidence quelques résultats et d'illustrer des phénomènes physique à des fins d'éducation.
+Ce montage avec arduino extrait de la publication de Mariani[^1] est une version miniaturisé du projet permettant de mettre en évidence quelques résultats et d'illustrer des phénomènes physique à des fins d'éducation.
 
 - [[Documentation Code Arduino]]
 

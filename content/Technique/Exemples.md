@@ -5,7 +5,7 @@ tags: doc, apt-interface
 draft: false
 ---
 
-Tous les exemples suivants sont disponibles dans le dossier `confocal` du repo [qsense](https://github.com/yannickdusch/qsense)
+Tous les exemples suivants sont disponibles dans le dossier `confocal` du repo ***. 
 
 ## Identifier les Modules avec leur numéro de série
 
