@@ -30,8 +30,8 @@ class KPZ101():
 	# ...
 
 	def set_disp_timeout(self) -> None:
-		#             func  param1 param2
-		self.dev.write(0x00, 0x00, 0x00)
+		#              func  param1                 param2
+		self.dev.write(0x00, self.conf.disp_timeout, 0x00)
 
 		# Les valeurs ne sont ici que représentative !
 ```
