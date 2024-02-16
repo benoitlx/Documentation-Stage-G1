@@ -5,8 +5,6 @@ tags: doc, apt-interface
 draft: false
 ---
 
-#todo 
-
 ## Mouvement sans configuration
 
 Pour créer un mouvement quelconque qui n'a pas besoin de paramètre externe pour être configuré, il suffit d'éditer le fichier `scan.py` et d'ajouter une méthode générant les coordonnés à la classe `Scan`. Cette méthode doit renvoyer un objet de type `np.ndarray[tuple]` c'est à dire une liste de coordonnés `(x, y, z)`. Si l'un des axes n'est pas utilisé, il suffira de remplacer une composante par un `None`.
@@ -20,7 +18,8 @@ class Scan():
 
 	def diagonale(self) -> np.ndarray[tuple]:
 		n = self.conf.zoi.dimensions.X
-																# On créer la liste qui va être retourné 
+		
+		# On créer la liste qui va être retourné 
 		coords = np.zeros(n, dtype=(float, 3))
 
 		# On remplie la liste
