@@ -77,6 +77,8 @@ Avec la fonction `visualize()`
 
 #### Scan 
 
+Le diamètre du défaut sur le plateau que l'on voit ci-dessous est d'environ $10µm$
+
 ###### Serpentin
 ![[serpentin.gif]]
 
