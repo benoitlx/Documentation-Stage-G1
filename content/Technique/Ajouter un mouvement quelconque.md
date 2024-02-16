@@ -57,3 +57,31 @@ class Scan():
 Cela aura pour effet de générer les coordonnés lors de la création d'un objet de type `Scan`.
 
 A partir de maintenant, il suffit de mettre `scan_type: diagonale` dans le fichier de configuration `yaml` et les nouvelles coordonnées seront disponibles
+
+## Mouvement avec configuration
+
+Le mouvement généré par la méthode que l'on a créé précédemment ne peut pas s'adapter à des paramètres d'un fichier de configuration. Il peut être intéressant d'ajouter dans le fichier de configuration des paramètres pour la méthode que l'on vient de créer. Disons par exemple :
+```yaml
+diagonale:
+	diag_number: 0 
+```
+
+`diag_number` étant un paramètre pour indiquer quel diagonale suivre (`(0, 0)` $\rightarrow$ `(X_max, Y_max)` ou `(X_max, 0)` $\rightarrow$ `(0, Y_max)`)
+
+Il faudra ainsi rajouter une classe nommée `DiagonaleConfig` dans le fichier `scan.py` :
+
+```python
+class DiagonaleConfig(BaseModel):
+	# name ---- type - default value
+	diag_number: int = 0
+```
+
+et ajouter dans la classe `ScanConfig` :
+
+```python
+class ScanConfig(BaseModel):
+	# ...
+	diagonale: Optional[DiagonaleConfig] = None
+```
+
+Après ça, il sera possible d'utiliser tous les paramètres du fichier `yaml` dans la méthode `digonale` en faisant `self.conf.diagonale.diag_number`.
