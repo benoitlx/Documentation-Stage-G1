@@ -159,23 +159,21 @@ zoi: # zone of interest (define a parallelepiped)
   ref_point: # the nearest point from (0, 0, 0) in the parallelepiped
     X: 0 
     Y: 0 
-    Z: 0 
+    Z: null 
   dimensions:
     X: 32767 
-    Y: 32767
-    Z: 32767 
-scan_type: "balayage"
-acquisition_time: 0.01
+    Y: 32767 
+    Z: null 
+scan_type: "spirale"
+acquisition_time: 0.02
 balayage:
   steps:
     X: 1000
     Y: 1000
-    Z: 5000 
+    Z: null 
 spirale:
-  rmax: 100
-  n: 10000
+  v: 50 
   w: 0.1256
-mode: "open_loop"
 ```
 
 ### Simulation
