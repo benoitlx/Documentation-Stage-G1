@@ -36,4 +36,6 @@ class KPZ101():
 		# Les valeurs ne sont ici que représentative !
 ```
 
-Pour savoir quelle valeur donner à `func` `param1` et `param2`, il faut aller voir la [documentation APT](https://www.thorlabs.com/Software/Motion%20Control/APT_Communications_Protocol.pdf). Si des données sont à transmettre en plus, il faut utiliser la fonction [[Device#`write_with_data(self, func bytes, data_length bytes, data bytes) -> bool`]] de la classe `Device`
+Pour savoir quelle valeur donner à `func` `param1` et `param2`, il faut aller voir la [documentation APT](https://www.thorlabs.com/Software/Motion%20Control/APT_Communications_Protocol.pdf). Si des données sont à transmettre en plus, il faut utiliser la fonction [[Device#`write_with_data(self, func bytes, data_length bytes, data bytes) -> bool`|write_with_data]] de la classe `Device`
+
+Si vous avez été jusque là, que vous avez implémenté votre fonction, et que vous pensez qu'elle peut être utile à d'autres personnes n'hésitez pas à faire une [Pull-request](https://github.com/benoitlx/APT-interface/pulls) de vos changements.

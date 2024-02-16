@@ -11,6 +11,7 @@ date: 2024-01-20
 Ce projet a pour objectif de mettre en place un système de [[Microscopie Confocale]] pouvant permettre la visualisation et l'étude d'un [[Centre NV dans le diamant|défaut dans le diamant]].
 ![[Pasted image 20240120170737.png]]
 Ce projet s'insère dans le projet existant [Qsense](https://github.com/yannickdusch/qsense)  initié par l'IEMN un laboratoire de microélectronique et de nanotechnologie basée sur Lille, dans une optique de recherche et d'enseignement. 
+
 ![[Pasted image 20240120173357.png|300]]
 ## Mon rôle dans ce projet
 

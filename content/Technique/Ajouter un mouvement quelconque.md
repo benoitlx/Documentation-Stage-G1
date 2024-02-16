@@ -65,7 +65,7 @@ diagonale:
 	diag_number: 0 
 ```
 
-`diag_number` étant un paramètre pour indiquer quel diagonale suivre (`(0, 0)` $\rightarrow$ `(X_max, Y_max)` ou `(X_max, 0)` $\rightarrow$ `(0, Y_max)`)
+`diag_number` étant un paramètre pour indiquer quelle diagonale suivre (`(0, 0)` $\rightarrow$ `(X_max, Y_max)` ou `(X_max, 0)` $\rightarrow$ `(0, Y_max)`)
 
 Il faudra ainsi rajouter une classe nommée `DiagonaleConfig` dans le fichier `scan.py` :
 
@@ -84,3 +84,5 @@ class ScanConfig(BaseModel):
 ```
 
 Après ça, il sera possible d'utiliser tous les paramètres du fichier `yaml` dans la méthode `digonale` en faisant `self.conf.diagonale.diag_number`.
+
+Si vous avez été jusque là, que vous avez implémenté votre fonction, et que vous pensez qu'elle peut être utile à d'autres personnes n'hésitez pas à faire une [Pull-request](https://github.com/benoitlx/APT-interface/pulls) de vos changements.

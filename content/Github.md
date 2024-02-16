@@ -12,5 +12,5 @@ Le projet mené lors de ce stage est organisé en trois dépôts github <svg xml
 </svg>:
 - [APT-interface](https://github.com/benoitlx/APT-interface) le module python que j'ai écris
 - [Documentation-Stage-G1](https://github.com/benoitlx/Documentation-Stage-G1) contenant cette documentation ainsi que les outils pour la produire
-- [qsense](https://github.com/yannickdusch/qsense) contenant les travaux des chercheurs et des exemples d'utilisation de mon module dans le dossier `confocale` 
+- [Qsense](https://github.com/yannickdusch/qsense) contenant les travaux des chercheurs et des exemples d'utilisation de mon module dans le dossier `confocale` 
 
