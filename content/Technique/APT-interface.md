@@ -60,7 +60,7 @@ Scan : visualize()
 
 #### Montage
 
-On peut voire les 3 [[KPZ101]] (ils fonctionnent en boucle fermée) et le [[Thorlabs MAX311D|nanomax]] sous un microscope. Les [[KPZ101]] sont posés sur un [[KCH601|hub]] relié en usb au PC.
+On peut voire les 3 [[KPZ101]] (ils fonctionnent en boucle ouverte) et le [[Thorlabs MAX311D|nanomax]] sous un microscope. Les [[KPZ101]] sont posés sur un [[KCH601|hub]] relié en usb au PC.
 ![[20240215_151659.jpg|600]]
 
 #### Déplacements de base
